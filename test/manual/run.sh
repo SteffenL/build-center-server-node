@@ -2,6 +2,7 @@
 
 set -e
 
+# Set your own parameters here
 apiKey=fake
 frontEndpoint=https://builds.steffenl.com
 apiEndpoint=https://builds.steffenl.com/api
