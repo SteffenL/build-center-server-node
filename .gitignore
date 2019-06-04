@@ -1,0 +1,8 @@
+.vscode/
+node_modules/
+
+*.sqlite3
+
+# User files
+/uploads/
+/config.js

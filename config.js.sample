@@ -1,0 +1,28 @@
+module.exports = {
+    server: {
+        port: 3000,
+        endpoint: {
+            front: null,
+            api: null
+        }
+    },
+    database: {
+        connection: {
+            database: null,
+            user: null,
+            password: null
+        }
+    },
+    webhook: {
+        releases: {
+            stable: {
+                enabled: false,
+                url: null
+            },
+            testing: {
+                enabled: false,
+                url: null
+            }
+        }
+    }
+};
