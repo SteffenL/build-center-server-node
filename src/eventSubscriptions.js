@@ -23,7 +23,7 @@ module.exports = () => {
         }));
 
         const description = release.prerelease
-            ? `A new prerelease is a available.`
+            ? `A new experimental release is a available.`
             : `A new stable release is available.`;
         const fields = [];
 
